@@ -21,8 +21,10 @@ Then wait until everything is finished, the drive will be unmounted automaticall
 ![.](pics/preview1.png)
 
 Then plug your drive into any Windows computer and it will show a 1.99TB drive regardless of the actual size of it
-You can still use it until you reach the real capacity of the NAND chip inside, but it's better to reformat it after
+You can still use it until you reach the real capacity of the NAND chip inside, but it's better to reformat it after.
+
 ![.](pics/preview2.png)
+
 Linux kernels won't be tricked by that, they will show the real capacity of the device (unless it have a modified MCU), untested on Mac.
 
 ## TODO
