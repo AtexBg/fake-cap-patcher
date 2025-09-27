@@ -9,16 +9,16 @@ echo             dangerous for your filesystem,
 echo                use at your own risk !
 echo                    @AtexBg, 2025
 echo           ---------------------------------
-echo.
+printf '\n'
 
 echo  --------- LSBLK Output ----------
 lsblk
 echo  ---------------------------------
-echo.
+printf '\n'
 
 echo /!\\ BE SURE TO SELECT THE RIGHT DEVICE TO PATCH
 echo OTHERWISE YOU WILL EXPERIENCE DATA LOSS /!\\
-echo.
+printf '\n'
 
 read -p "Enter device name to patch (eg. sda1): " DEVICE
 
