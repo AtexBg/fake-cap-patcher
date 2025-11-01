@@ -16,12 +16,12 @@
 
 Then wait until everything is finished, the drive will be unmounted automatically.
 
->Note: This will create a temporary file at `/tmp/2tb_temp` to store the virtual filesystem which is around ~524MB, it will be deleted after the script execution (so be sure to have enough storage space)
+>Note: This will create a temporary file at `/tmp/2tb_temp` to store the virtual filesystem which is around ~524MB (so be sure to have enough storage space). It will be deleted after the script execution. 
 
 ![.](pics/preview1.png)
 
 Then plug your drive into any Windows computer and it will show a 1.99TB drive regardless of the actual size of it
-You can still use it until you reach the real capacity of the NAND chip inside, but it's better to reformat it after.
+You can still use it until you reach the real capacity of the NAND chip inside, to go back to the original size you can just format the drive
 
 ![.](pics/preview2.png)
 
@@ -31,4 +31,5 @@ Linux kernels won't be tricked by that, they will show the real capacity of the 
 - Add option to choose drive size
 - Add support for NTFS/exFAT drives
 - Add ability to make >2TB fake Capacity
-- Improve script security
+- Improve script security checks
+
